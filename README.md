@@ -7,9 +7,11 @@ Esse repositório tem como objetivo formar uma documentação própria da lingua
 </h4>
 
 # Características da linguagem de programação C#
-
-
-
+- `Fortemente tipada`: Possui tipos específicos definidos que precisam ser especificados em variáveis e funções. Estas definições são importantes para uma linguagem fortemente tipada e permite um maior controle do código.
+- `Orientada a Objetos e Orientada a Componentes`: Ela dá suporte aos conceitos de orientação a objetos, sendo está a sua essência, e também, permite o reuso de componentes de software.
+- `Linguagem de programação multiparadigma`: Apesar de em sua essência ser uma linguagem orienta a objetos, ela também dá suporte a programação estruturada, funcional e assíncrona.
+- `Interoperabilidade`: Ela possui capacidade de interagir com outras linguagens e tecnologias do sistema ampliando sua capacidade.
+- `Multiplataforma`: Ela permite que uma mesma aplicação seja executada em diversos dispositivos diferentes.
 
 Materiais:
 https://www.youtube.com/watch?v=NXVQasys0B8
