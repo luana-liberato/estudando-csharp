@@ -6,7 +6,7 @@ Esse repositório tem como objetivo formar uma documentação própria da lingua
     :construction:  Documentação em construção  :construction:
 </h4>
 
-<img src="/imagens/csharp.png" alt="Lê-se C Sharp" align="center">
+<img src="/imagens/csharp.png" alt="Lê-se C Sharp" align="middle">
 
 # Antes de tudo, uma introdução...
 C# é uma linguagem de programação 
