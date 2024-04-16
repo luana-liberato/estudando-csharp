@@ -8,10 +8,13 @@ Esse repositório tem como objetivo formar uma documentação própria da lingua
 
 <img src="/imagens/C#.png" alt="Lê-se C Sharp">
 
+# Antes de tudo, uma introdução...
+C# é uma linguagem de programação 
+
 # Características da linguagem de programação C#
-- `Fortemente tipada`: Possui tipos específicos definidos que precisam ser especificados em variáveis e funções. Estas definições são importantes para uma linguagem fortemente tipada e permite um maior controle do código.
+- `Fortemente tipada`: Os tipos definidos da linguagem precisam ser especificados em variáveis e funções. Estas definições são importantes para uma linguagem fortemente tipada e permite um maior controle do código.
 - `Orientada a Objetos e Orientada a Componentes`: Ela dá suporte aos conceitos de orientação a objetos, sendo está a sua essência, e também, permite o reuso de componentes de software.
-- `Linguagem de programação multiparadigma`: Apesar de em sua essência ser uma linguagem orienta a objetos, ela também dá suporte a programação estruturada, funcional e assíncrona.
+- `Linguagem de programação multiparadigma`: Apesar de em sua essência ser uma linguagem orientada a objetos, ela também dá suporte a programação estruturada, funcional e assíncrona.
 - `Interoperabilidade`: Ela possui capacidade de interagir com outras linguagens e tecnologias do sistema ampliando sua capacidade.
 - `Multiplataforma`: Ela permite que uma mesma aplicação seja executada em diversos dispositivos diferentes.
 
@@ -32,6 +35,3 @@ Material
 
 - Curso de C# - Udemy - https://www.udemy.com/course/curso-c-sharp/?gad_source=1&gclid=Cj0KCQjwncWvBhD_ARIsAEb2HW94pkAgRTLfM-NMFnTznF1BolPAyWc-kFIA-kzuOOkqKLwEYg2meWkaAibhEALw_wcB&utm_campaign=CSharp_new_v.PROF_la.PT_cc.BR_ti.4904&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords-intl&utm_term=_._ag_105409588687_._kw_como+estudar+c%23_._ad_654114699298_._de_c_._dm__._pl__._ti_kwd-887423293640_._li_1001621_._pd__._&couponCode=LETSLEARNNOWPP
 - Design Patterns C# - Livro de alura - https://www.casadocodigo.com.br/products/livro-design-paterns-csharp?_pos=1&_sid=6f13059ba&_ss=r
-
-
-[def]: imagens/C#.pn
