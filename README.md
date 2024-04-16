@@ -32,3 +32,6 @@ Material
 
 - Curso de C# - Udemy - https://www.udemy.com/course/curso-c-sharp/?gad_source=1&gclid=Cj0KCQjwncWvBhD_ARIsAEb2HW94pkAgRTLfM-NMFnTznF1BolPAyWc-kFIA-kzuOOkqKLwEYg2meWkaAibhEALw_wcB&utm_campaign=CSharp_new_v.PROF_la.PT_cc.BR_ti.4904&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords-intl&utm_term=_._ag_105409588687_._kw_como+estudar+c%23_._ad_654114699298_._de_c_._dm__._pl__._ti_kwd-887423293640_._li_1001621_._pd__._&couponCode=LETSLEARNNOWPP
 - Design Patterns C# - Livro de alura - https://www.casadocodigo.com.br/products/livro-design-paterns-csharp?_pos=1&_sid=6f13059ba&_ss=r
+
+
+[def]: imagens/C#.pn
