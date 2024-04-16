@@ -6,7 +6,7 @@ Esse repositório tem como objetivo formar uma documentação própria da lingua
     :construction:  Documentação em construção  :construction:
 </h4>
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.stickersdevs.com.br%2Fshop%2Fstickers%2Fc-sticker-2%2F&psig=AOvVaw2h8j8Cen8IU5JiBVycfOxe&ust=1713356094197000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMib2ZHbxoUDFQAAAAAdAAAAABAD" alt="Lê-se C Sharp" align="center">
+<img src="/imagens/C#.png" alt="Lê-se C Sharp" align="center">
 
 # Características da linguagem de programação C#
 - `Fortemente tipada`: Possui tipos específicos definidos que precisam ser especificados em variáveis e funções. Estas definições são importantes para uma linguagem fortemente tipada e permite um maior controle do código.
