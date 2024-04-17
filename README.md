@@ -1,7 +1,17 @@
-# <center>Estudando C#</center>
+# Estudando C#
 Esse repositório tem como objetivo formar uma documentação própria da linguagem C# para posterior consulta e possivelmente colaborar com o aprendizado de outras pessoas.
 
-#### <center>:construction:  Documentação em construção  :construction:</center>
+#### :construction:  Documentação em construção  :construction:
+<div align = "center">
+
+  # Estudando C#
+  Esse repositório tem como objetivo formar uma documentação própria da linguagem C# para posterior consulta e possivelmente colaborar com o aprendizado de outras pessoas.
+
+  #### :construction:  Documentação em construção  :construction:
+
+  ![Lê-se c sharp](/assets/imagens/csharp.png)
+
+</div>
 
 <img src="/imagens/csharp.png" alt="Lê-se C Sharp" align="center">
 
@@ -15,7 +25,7 @@ Agora, sobre o C#, visto que ela faz parte da plataforma .NET, ela permite que u
 
 - `Orientada a Objetos e Orientada a Componentes`: Ela dá suporte aos conceitos de orientação a objetos, sendo está a sua essência, e também, permite o reuso de componentes de software.
 
-- `Linguagem de programação multiparadigma`: Apesar de em sua essência ser uma linguagem orientada a objetos, ela também dá suporte aos paradigmas estruturado, funcional e assíncrono.
+- `Linguagem de programação multiparadigma`: Apesar de em sua essência ser uma linguagem orientada a objetos, ela também dá suporte aos paradigma estruturado, funcional e assíncrono.
 
 - `Interoperabilidade`: Ela possui capacidade de interagir com outras linguagens e tecnologias do sistema ampliando sua capacidade.
 
