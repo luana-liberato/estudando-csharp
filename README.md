@@ -1,7 +1,3 @@
-# Estudando C#
-Esse repositório tem como objetivo formar uma documentação própria da linguagem C# para posterior consulta e possivelmente colaborar com o aprendizado de outras pessoas.
-
-#### :construction:  Documentação em construção  :construction:
 <div align = "center">
 
   # Estudando C#
@@ -9,11 +5,9 @@ Esse repositório tem como objetivo formar uma documentação própria da lingua
 
   #### :construction:  Documentação em construção  :construction:
 
-  ![Lê-se c sharp](/assets/imagens/csharp.png)
+  ![Lê-se c sharp](/imagens/csharp.png)
 
 </div>
-
-<img src="/imagens/csharp.png" alt="Lê-se C Sharp" align="center">
 
 # Vamos conhecer C#!
 C# é uma linguagem de programação desenvolvida pela Microsoft como parte da plataforma .NET, uma plataforma de desenvolvimento multilinguagem na qual ofere um ambiente de desenvolvimento, execução e gerenciamento de aplicações e serviços para diversos dispositivos e sistemas operacionais.
