@@ -30,6 +30,8 @@ Todo código fonte escrito em C# utiliza o conceito de máquina virtual que para
 
 O processo é simples. O código fonte passa por um compilador próprio da linguagem que gera o mesmo código em uma nova linguagem conhecida como linguagem intermediária: a CIL (Common Intermediate Language). Essa linguagem é uma padronização entendida pela nossa máquina virtual CLR que recebendo esse código em linguagem intermediária vai então compilar unsando o compilador JIT (Just in Time) que converte o arquivo por fim em código de máquina para ser executado.
 
+Um detalhe importante, na primeira compilação do código fonte C# os arquivos gerados são empacotados fisicamente em assemblies. Os assemblies normalmente têm a extensão de arquivo .exe quando implementamos programas ou .dll quando implementamos bibliotecas.
+
 <div Align="center">
 
   ![Compilação de programas C#](/imagens/compilacao.png)
