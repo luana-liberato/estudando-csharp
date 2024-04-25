@@ -27,8 +27,8 @@ class OlaMundo
                    Isso ajuda no sentido de reduzir a quantidade de código necessário para se escrever por cada
                    linha que você precise acessar um tipo toda vez que for o usar. Por exemplo:
                    Vamos supor que tenhamos uma classe 'Cliente' no namespace 'MeuApp.Clientes'. Toda vez que for
-                   necessário usá-lá não precisamos digitar 'MeuApp.Clientes.Cliente', basta usarmos o using e acessar
-                   a classe somente com 'Cliente'. No caso, seria 'using MeuApp.Clientes;'.
+                   necessário usá-lá não precisamos digitar 'MeuApp.Clientes.Cliente', basta usarmos o using e
+                   acessar a classe somente com 'Cliente'. No caso, seria 'using MeuApp.Clientes;'.
 
          */
     }
