@@ -1,8 +1,7 @@
 <div Align="center">
 
   # Estudando C#
-  Esse repositório tem como objetivo formar uma documentação própria da linguagem C# para posterior consulta e possivelmente colaborar com o aprendizado de outras pessoas.
-
+  Esse repositório tem como objetivo formar uma documentação própria dos meus estudos da linguagem C# para posterior consulta e talvez colaborar com o aprendizado de outras pessoas.
   #### :construction:  Documentação em construção  :construction:
 
   ![Lê-se c sharp](/imagens/csharp.png)
