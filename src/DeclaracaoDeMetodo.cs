@@ -1,30 +1,36 @@
 using System;
 
-public class DeclaracaoDeMetodo {
-    public static void Main() {
+class Metodos
+{
+    public static int num1;
+    public static int num2;
 
-        /***/
+    static void Main()
+    {
+        // Métodos em C# são simples. A sintaxe é: [modificador] [tipo de retorno] [nome do método]([parâmetros]).
 
         apresentar();
-        int soma = somar();
-        formatarResultado(soma);
+        obterDados();
+        somar();
     }
 
-    public static void apresentar() {
-        Console.WriteLine("Seja bem-vindo ao programa somar!");
+    // Como estamos chamando métodos que não estão relacionados a criação de objetos precisamos do 'static'
+    public static void apresentar()
+    {
+        Console.WriteLine("Vamos trabalhar com operações de soma e subtração!");
     }
 
-    public static int somar() {
-        Console.Write("Informe o primeiro valor inteiro: ");
-        int num1 = int.Parse(Console.ReadLine());
+    public static void obterDados()
+    {
+        Console.Write("Digite um primeiro valor inteiro: ");
+        num1 = Convert.ToInt32(Console.ReadLine());
 
-        Console.Write("Informe o primeiro valor inteiro: ");
-        int num2 = int.Parse(Console.ReadLine());
-
-        return num1 + num2;
+        Console.Write("Digite um primeiro valor inteiro: ");
+        num2 = Convert.ToInt32(Console.ReadLine());
     }
 
-    public static void formatarResultado(int resultado) {
-        Console.WriteLine("Resultado da nossa soma: " + resultado);
+    public static void somar()
+    {
+        Console.WriteLine("O resultado da soma entre {0} e {1} é: {2}", num1, num2, (num1 + num2));
     }
 }
