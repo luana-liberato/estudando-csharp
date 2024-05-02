@@ -13,7 +13,7 @@ class EntradaSaidaNoConsole
            bibliotecas e programas C#.
            
          * Dito isto, a classe Console do namespace System é uma classe que possui vários métodos de entrada e
-           saída no console ou terminal. O WriteLine() é um dos métodos da classe Console.
+           saída no console ou terminal. O WriteLine() e o ReadLine() são um dos métodos da classe Console.
            
          */
 
@@ -24,6 +24,14 @@ class EntradaSaidaNoConsole
         byte idade = 0;
         float altura = 0;
 
+        /*
+           
+         * Agora começamos a lidar com entrada de dados com o método ReadLine() da classe Console do namespace 
+           System. O ponto em questão é que ele retorna uma string, então, para variáveis de tipos primitivos 
+           diferentes é preciso fazer conversão como no exemplo abaixo para a variável idade e altura.
+         
+         */
+
         Console.WriteLine();
         Console.WriteLine("Digite seu nome: ");
         nome = Console.ReadLine(); // Esse método vai ser chamado para a leitura de dados e retorna uma string
@@ -33,14 +41,6 @@ class EntradaSaidaNoConsole
 
         Console.WriteLine("Digite seu peso: ");
         altura = float.Parse(Console.ReadLine()); // Outra forma de converter de string para o dado específico
-
-        /*
-           
-         * Agora começamos a lidar com entrada de dados com o método ReadLine() da classe Console do namespace 
-           System. O ponto em questão é que ele retorna uma string, então, para variáveis de tipos primitivos 
-           diferentes é preciso fazer conversão como no exemplo para a variável idade e altura.
-         
-         */
 
         // De extra... Alguns elementos para deixar nossa saída no Console mais organizada
 
