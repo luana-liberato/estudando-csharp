@@ -23,15 +23,11 @@ class EntradaSaidaNoConsole
         string nome;
         byte idade = 0;
         float altura = 0;
-
-        /*
-           
-         * Agora começamos a lidar com entrada de dados com o método ReadLine() da classe Console do namespace 
-           System. O ponto em questão é que ele retorna uma string, então, para variáveis de tipos primitivos 
-           diferentes é preciso fazer conversão como no exemplo abaixo para a variável idade e altura.
+ 
+        // Agora começamos a lidar com entrada de dados com o método ReadLine() da classe Console do namespace 
+        // System. O ponto em questão é que ele retorna uma string, então, para variáveis de tipos primitivos 
+        // diferentes é preciso fazer conversão como no exemplo abaixo para a variável idade e altura.
          
-         */
-
         Console.WriteLine();
         Console.WriteLine("Digite seu nome: ");
         nome = Console.ReadLine(); // Esse método vai ser chamado para a leitura de dados e retorna uma string
@@ -45,14 +41,10 @@ class EntradaSaidaNoConsole
         // De extra... Alguns elementos para deixar nossa saída no Console mais organizada
 
         Console.WriteLine();
-        Console.WriteLine("Legal!\nPrazer em conhecer você, " + nome); // '\n' é quebra de linha
-
-        /* 
+        Console.WriteLine("Legal!\nPrazer em conhecer você, " + nome); // '\n' é quebra de linha 
          
-         * Essa forma de juntar as informações de saída com variáveis é boa quando temos poucos elementos, mas 
-           temos outras alternativas com uma grande listagem de valores como agora.
-         
-         */
+        // Essa forma de juntar as informações de saída com variáveis é boa quando temos poucos elementos, mas 
+        // temos outras alternativas com uma grande listagem de valores como agora.
 
         Console.WriteLine("Vou listar seus dados!");
 
@@ -66,7 +58,7 @@ class EntradaSaidaNoConsole
            
          * Esses números são determinados pela ordem que os valores foram alocados, por exemplo, se o nosso print
            fosse assim:
-         * Console.WriteLine("DADOS\nIdade: {0}\nAltura: {1}\nNome: {2}\n", idade, altura, nome);
+           Console.WriteLine("DADOS\nIdade: {0}\nAltura: {1}\nNome: {2}\n", idade, altura, nome);
          
          * Então no caso 0 -> idade, 1 -> altura, 2 -> nome
          

@@ -19,7 +19,7 @@ class Operadores
                 - De referência e de tipo (Não tratado neste código)
 
          */
-        
+
         Console.WriteLine("Vamos estudar sobre operadores! Para isso, me informe alguns valores de variáveis!");
 
         Console.Write("Informe um primeiro número do tipo double: ");
@@ -66,12 +66,8 @@ class Operadores
         Console.WriteLine("'A:{0} ||(OR) B:{1}' -> {2}", a, b, (a || b));
         Console.WriteLine("'!A:!{0} (! = NOT) -> {1}", a, (!a));
 
-        /*
-         
-         * A atribuição que fazemos quando usamos o '=' é claramente uma operação de atribuição, mas temos outros
-           tipos conhecidos como atribuição composta.
-         
-         */
+        // A atribuição que fazemos quando usamos o '=' é claramente uma operação de atribuição, mas temos outros
+        // tipos conhecidos como atribuição composta.
 
         Console.WriteLine();
         Console.WriteLine("=-=-=-=-=-= OPERADORES DE ATRIBUIÇÃO =-=-=-=-=-=");
@@ -88,14 +84,28 @@ class Operadores
         aux /= 2;
         Console.WriteLine("'{0} /= 2' -> {1}", n1, Math.Round(aux, 1));
 
-        Console.WriteLine();
-        Console.WriteLine("=-=-=-=-=-=-=-= OPERADORES BITWISE =-=-=-=-=-=-=-=");
-
         /*
          
-         * Nos operadores ternários temos a seguinte sintaxe: (condição) ? valor_se_verdadeiro : valor_se_falso 
-         
+         * Operações Bitwise são opearações com números binários em que considerando o conrrespondente binário
+           de nossos valores podemos fazer o deslocamento dos bits alterando seus valores. Vamos usar um exemplo:
+                -> Suponhamos que temos o número 10 da qual sua representação binária é 001010
+                
+                -> Se deslocarmos os bits para direita uma vez reduzimos o valor pela metade resultando em 5.
+                   001010 com os bits deslocados uma vez para direita é 000101.
+                
+                -> Se deslocarmos os bits para esquerda uma vez dobramos o valor resultando em 20.
+                   001010 com os bits deslocados uma vez para esquerda é 010100.
+
          */
+
+        Console.WriteLine();
+        Console.WriteLine("=-=-=-=-=-=-=-= OPERADORES BITWISE =-=-=-=-=-=-=-=");
+        int aux2 = 10 << 1;
+        Console.WriteLine("'10 << 1' -> {0}", aux2);
+        aux2 = 10 >> 1;
+        Console.WriteLine("'10 >> 1' -> {0}", aux2);
+
+        // Nos operadores ternários temos a seguinte sintaxe: (condição) ? valor_se_verdadeiro : valor_se_falso 
 
         Console.WriteLine();
         Console.WriteLine("=-=-=-=-=-=-=-= OPERADOR TERNÁRIO =-=-=-=-=-=-=-=");
