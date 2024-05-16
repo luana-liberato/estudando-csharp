@@ -2,7 +2,6 @@ using System;
 
 class Enumeradores
 {
-
 	// Por padrão o ídice do tipo definido começa com 0 e vai até o (número de possibilidades - 1)
 	// Domingo = 0, Segunda = 1, Terça = 2, Quarta = 3, Quinta = 4, Sexta = 5, Sábado = 6
 	enum DiaSemana { Domingo, Segunda, Terça, Quarta, Quinta, Sexta, Sábado };
